@@ -1,0 +1,67 @@
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  
+  .social-media {
+    display: flex;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .social-icon:not(:last-child) {
+    margin-right: 20px; /* Add desired spacing between icons */
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  
+  .contact-info {
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+
+  .built-by {
+    font-size: 20px;
+    animation: rainbow 3s linear infinite;
+    background: linear-gradient(45deg, #f093fb, #f5576c, #f093fb, #f5576c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

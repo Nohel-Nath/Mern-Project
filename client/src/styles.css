@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+.dark header {
+  background-color: #202020;
+}
+
+.dark footer {
+  background-color: #202020;
+}

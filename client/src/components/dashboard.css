@@ -1,0 +1,29 @@
+.dashboard-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Add this line to vertically center the label and value */
+    margin-bottom: 10px;
+  }
+  
+  .user-info-label {
+    font-weight: bold;
+    white-space: nowrap; /* Add this line to prevent label from wrapping to the next line */
+  }
+  
+  .user-info-value {
+    color: #666;
+  }
